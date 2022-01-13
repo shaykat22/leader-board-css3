@@ -127,12 +127,13 @@ hr{
     .container{
         width: 100%;
     }
-    .players, .blog, .courses{
+    .players, .blogs, .courses{
        
         grid-template-columns: repeat(1, 1fr);
     }
     .player, .blog{
         flex-direction: column;
+        align-items: center;
     }
     
 }
